@@ -13,5 +13,6 @@ If you have already taken the Git course, then you can commit and push your prac
 Below is a table with the markdown equivalents of common HTML elements:
 
 | Element type | HTML element | Markdown equivalent | Example  |
+|--------------|--------------|---------------------|----------|
 | Header       | `<h1></h1>`  | `#`                 | # header |
 |              |              |                     |          |
