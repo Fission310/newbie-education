@@ -17,4 +17,4 @@ For example, compare the content on this page to the HTML. This file was written
 
 Markdown has a variety of usages, the most common being the one stated above: to create content in a way that's simple to write and edit. Apart from GitHub READMEs, markdown can be converted to HTML on websites with content (like our team website!) through a [static site generator](https://medium.freecodecamp.org/static-sites-are-back-24d01a01f11a).
 
-The best way to learn Markdown is through practice. The next lesson will have examples and practice problems to acquaint you with markdown formatting.
+The best way to learn Markdown is through practice. The next lessons will have examples and practice problems to acquaint you with markdown formatting.

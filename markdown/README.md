@@ -9,3 +9,4 @@
 ## Lessons
 - [Introduction](00-intro.md)
 - [Formatting](01-formatting.md)
+- [Practice](02-practice.md)
