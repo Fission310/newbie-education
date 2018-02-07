@@ -8,5 +8,4 @@
 
 ## Lessons
 - [Introduction](00-intro.md)
-- [Why Markdown?](01-why-markdown.md)
-- [Formatting](02-formatting.md)
+- [Formatting](01-formatting.md)
