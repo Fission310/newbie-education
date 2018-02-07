@@ -12,7 +12,25 @@ If you have already taken the Git course, then you can commit and push your prac
 ### Formatting
 Below is a table with the markdown equivalents of common HTML elements:
 
-| Element type | HTML element | Markdown equivalent | Example  |
-|--------------|--------------|---------------------|----------|
-| Header       | `<h1></h1>`  | `#`                 | # header |
-|              |              |                     |          |
+| Element type | HTML element | Markdown equivalent | Example   |
+|--------------|--------------|---------------------|-----------|
+| Header       | `<h1></h1>`  | `#`                 | [H1](#h1) |
+|              |              |                     |           |
+
+
+## Reference
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
