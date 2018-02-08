@@ -25,8 +25,8 @@ Below is a table with the markdown equivalents of common HTML elements:
 | Emphasis          | `<em></em>`         | `~~text~~`                 | [Emphasis](#emphasis) |
 | Unordered List    | `<li></li>`         | `-` or `*` or `+`          | [Lists](#lists)       |
 | Ordered List      | `<li></li>`         | `1.`, `2.`, etc.           | [Lists](#lists)       |
-| Inline code block | n/a                 | `\`code\``                 | [Code](#code)         |
-| Code block        | n/a                 | ``````                     | [Code](#code)         |
+| Inline code block | n/a                 | \`code\`                   | [Code](#code)         |
+| Code block        | n/a                 | \```<br>code<br>```                  | [Code](#code)         |
 
 Keep exploring [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)! When you're ready, move on to the practice lesson.
 
