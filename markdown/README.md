@@ -5,6 +5,7 @@
 - Suggested learning time: 1-2 days
 - Prerequisites: none
 - Followups: [fission310](../websites/fission310), [jekyll](../websites/jekyll)
+- Created February 2018
 
 ## Lessons
 - [Introduction](00-intro.md)
