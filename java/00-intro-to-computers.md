@@ -14,6 +14,9 @@ Software, on the other hand, makes the hardware useful. They're a set of instruc
 
 A programming language is a set of rules that can be followed to instruct a computer to perform an action. There are many different programming languages, with different __syntaxes__ (set of rules), that can perform a variety of tasks. Some examples include Java, C, and Python. The combined instructions we give a computer is called a __program__.
 
+[How many programming languages do you know?](https://www.sporcle.com/games/moogles/programlanguages) (slightly outdated).
+Beat my score of 17!
+
 ## How is Code Translated into Software?
 
 By themselves, computers cannot read the code that we write in our various programming languages. That code has to be translated into binary, the language of computers, in order for the machine to be able to interpret it. This translation is called __compiling__. After a program has been compiled, it can be run, or __executed__ on the computer.
