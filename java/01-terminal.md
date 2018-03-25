@@ -48,4 +48,10 @@ Here are some basic terminal commands:
 
 ## Why the Terminal
 
-You'll be using the terminal a lot to work with GitHub and in your APCS and beyond classes, so it's a good idea to pick it up now!
+Performing an action using a GUI is usually much slower than typing a command on a CLI. After all, with a GUI, you have to load a window and click buttons on your screen. If you still don't believe me, try making a lot of files and deleting them. You'll find that typing out `touch` and `rm` is much faster than anything you can do on a GUI.
+
+Also, you'll be using the terminal a lot to work with GitHub and in your APCS and beyond classes, so it's a good idea to pick it up now!
+
+And to your friends, you'll look like this:
+
+![hacker](https://i.ytimg.com/vi/2KdEpkzAM90/maxresdefault.jpg)

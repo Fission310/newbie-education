@@ -9,10 +9,14 @@ Code can be written in either a __text editor__ or an __IDE__ (integrated develo
 - Can be used for any programming language or __plaintext__ files
 - Examples include Emacs, Sublime, Atom, gedit, and Vim
 
+![emacs](https://www.gnu.org/software/emacs/images/teaser.png)
+
 ### IDEs
 - Can compile and run code
 - Usually used for a specific programming language/set of languages
 - Examples include Android Studio (what we use; Java and Android apps) and DrRacket (from IntroCS1)
+
+![android studio](https://cdn57.androidauthority.net/wp-content/uploads/2017/05/Android-Manifest-840x514.png)
 
 ## Setup
 
