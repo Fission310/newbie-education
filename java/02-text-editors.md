@@ -22,4 +22,4 @@ Code can be written in either a __text editor__ or an __IDE__ (integrated develo
 
 For the following lessons, you will need a __text editor__. While you will eventually use Android Studio for developing robot code, using a text editor is more beneficial for learning programming syntax and concepts without the superfluous features of an IDE.
 
-While I recommend [Emacs](https://www.gnu.org/software/emacs/download.html), you may use any text editor you are comfortable with using. Check out the [Emacs course](../emacs) if you would like to learn more about the Emacs text editor.
+While I recommend [Emacs](https://www.gnu.org/software/emacs/download.html), you may use any text editor you are comfortable with using, including vim, gedit, or... notepad.... Check out the [Emacs course](../emacs) if you would like to learn more about the Emacs text editor.
