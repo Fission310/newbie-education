@@ -14,7 +14,8 @@ public class HelloWorld {
 }
 ```
 
-If you have successfully compiled and run your program, you should see something like
+If you have successfully compiled and run your program, you should see something like:
+
 ![hello-world](assets/hello_world.png)
 
 If you're having trouble with this part, check out the section below for potential messups or download [this](assets/HelloWorld.java) file.
