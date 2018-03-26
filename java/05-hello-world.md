@@ -34,7 +34,7 @@ public class HelloWorld {
 
 All java files must begin with `public class <File>`. Notice a similarity between the word after `class` in the above code block and the file name you were instructed to use? That's right, they're the same. The `<File>` part of the first line __MUST__ be the same as the filename without the `.java` extension. In other words, if the filename was `foo.java`, the first line has to be `public class foo {`. Ignore the `public class` for now, we'll get back to that in a later lesson.
 
-There is a [convention](https://en.wikipedia.org/wiki/Coding_conventions) in java to use CamelCased filenames, which means that your `<File>` subsequently has to be CamelCased. CamelCasing refers to the CapitalizationOfTheFirstLetterOfEveryWordWithoutSpaces.
+There is a [convention](https://en.wikipedia.org/wiki/Coding_conventions) in java to use camelCased filenames, which means that your `<File>` subsequently has to be camelCased. CamelCasing refers to the CapitalizationOfTheFirstLetterOfEveryWordWithoutSpaces.
 
 Follow conventions and don't be this guy:
 

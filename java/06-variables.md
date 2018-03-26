@@ -46,7 +46,7 @@ Don't worry about memorizing this, you can reference this table or documentation
 
 ## Using a Variable
 
-1. __Declare__ it.
+1. __Declare__ it (give it a type and name).
 
 ```java
 int x;
@@ -72,4 +72,28 @@ Booleans are a special case: they can only be assigned values of `true` or `fals
 boolean a = true;
 ```
 
+### Box Analogy
+
+If you're having trouble visualizing this, try using the box analogy (credit FRC SE).
+
+![box-analogy](assets/box-analogy.png)
+
+> When you create a variable, you’re creating a box with a name attached to it (you’re "reserving" a place on the computer to store information). When you assign a value to the variable, you’re changing what’s in the box.
+
+### Strings
+
+But wait, what about Strings?
+
+Strings are just combinations or characters; they're what you think of as words, phrases, and sentences.
+
+Strings are different from the data types in the table above. The data types in the table are __primitives__, the basic data types used in Java. However, Strings are declared and used in the same way that primitives are used.
+
+```java
+String whoAmI = "Ryan";
+```
+
+This creates a String called `whoAmI`, with a value of `Ryan`.
+
 ## Conventions
+
+Like file names, variable names should be camelCased. However, __the first letter of the variable should not be capitalized__, unlike file names. For example, `variableName` would be an acceptable variable name, while `VariableName` and `variablename` are not acceptable.
