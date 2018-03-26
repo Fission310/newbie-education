@@ -42,7 +42,7 @@ Follow conventions and don't be this guy:
 
 _Related_: Seeing this error?
 
-![filename-error](filename_error.png)
+![filename-error](assets/filename_error.png)
 
 Make sure the filename and `<File>` are the same.
 
