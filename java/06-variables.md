@@ -44,6 +44,8 @@ Here are the other types:
 
 Don't worry about memorizing this, you can reference this table or documentation if you're unsure of what data is stored in each of the different types.
 
+Note the bolded data types. They are the most common ones and likely the only ones you'll be using.
+
 ## Using a Variable
 
 1. __Declare__ it (give it a type and name).
