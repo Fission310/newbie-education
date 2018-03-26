@@ -29,6 +29,8 @@ If there are any syntax (typing or formatting) errors with your code at this poi
 
 Do you notice anything happening after you compile? (_Hint: Look in your current directory._) The compiler creates a `.class` file that will be used during execution.
 
+__Every time you make a change to a java file, you will need to compile it again to see your changes when you run it.__
+
 ## Executing
 
 In terminal:

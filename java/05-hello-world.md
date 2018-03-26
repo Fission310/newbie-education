@@ -55,3 +55,27 @@ Looking at the code inside the outermost set of curly braces:
         // all of your code should go here
     }
 ```
+
+This is referred to as a specific type of function called __method__. We'll go over what functions and methods are later on in this course.
+
+__This specific method is called the main method, and only the code inside this method will be run.__ Code outside this method serve to assist the code inside this method. Continuing with the example above, `System.out.println("Hello world!");` is the only code that is inside this method, and it's the only code that is run. If you put this line after the closing curly brace, you would not get an output when you run the program. (In fact, you'd get an error.)
+
+### Mystery #3
+
+By now, you've probably figured out the purpose of the following line.
+
+```java
+System.out.println("Hello world!");
+```
+
+When you want your program to print something, simply add this line to your main method and replace the characters inside the quotes with what you want to print. The quotes are important--make sure to keep them around your printed statement.
+
+Note the semicolon at the end of the line. Inside any method, including the main method, all of your lines must end with semicolons. This tells the java compiler where the ends of your commands are. If you forget a semicolon, you will be gently reminded by the compiler.
+
+## Syntax
+
+We briefly touched upon this in the above section, but __syntax__ refers to a general set of rules for writing code in a specific language. For example, the semicolon rule above applies to code written in Java (this can be different in other languages, like Python). Whenever you're writing code, make sure to keep the syntax rules in mind.
+
+## Assignment
+
+Make a new java file and have it print out whatever you'd like. Use the code from the beginning of this section as a guide. Be careful of the common pitfalls we've covered in this and the previous lesson!
