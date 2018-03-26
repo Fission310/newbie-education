@@ -27,11 +27,13 @@ javac <file>.java
 
 If there are any syntax (typing or formatting) errors with your code at this point, the compiler will give you an error, which tells you what's wrong and the line number that the error is coming from. These messages are useful for debugging your code.
 
+Do you notice anything happening after you compile? (_Hint: Look in your current directory._) The compiler creates a `.class` file that will be used during execution.
+
 ## Executing
 
 In terminal:
 ```bash
-java <file>.java
+java <file>
 ```
 
 If your program has output, you should see the output after running this command.
