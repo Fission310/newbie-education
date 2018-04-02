@@ -11,3 +11,14 @@ Chances are, you already have Java on the machine you're using to view this. If 
 ### JDK
 
 However, you'll also need the Java Development Kit (JDK) to be able to compile your own Java files. At the time of writing, the latest version of the JDK is 9.0.4, but you should find the latest version of the JDK and install it. You can find a link to the JDK download [here](https://java.com/en/download/faq/develop.xml).
+
+### Command Prompt
+
+If you are on Windows, you will need to configure your computer to be able to use Command Prompt to work with java files.
+
+In Command Prompt,
+
+```
+C:\> set path=%path%;C:\Program Files\Java\jdk1.8.0_51\bin
+```
+replacing `1.8.0_51` with the version of the JDK that you installed.
