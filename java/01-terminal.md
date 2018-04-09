@@ -24,9 +24,7 @@ The other type of user-computer interaction is done through a Graphical User Int
 
 On Ubuntu, you can open the terminal using the keyboard shortcut `CTRL-ALT-T`. On other operating systems, you can search up how to open a terminal or [click here](http://lmgtfy.com/?q=how+to+open+terminal) for help.
 
-Note: the following section may not apply to Windows users. It is highly suggested you follow along in MacOS or Ubuntu. Command Prompt on Windows is not equivalent to Terminal on Linux.
-
-If you do not have a Mac or Linux machine, you can use the practice links in the below section instead.
+Note: If you are using Windows, you can install [Git Bash](http://www.techoism.com/how-to-install-git-bash-on-windows/), which can be used as a terminal on Windows.
 
 ### Terminal Commands
 
@@ -41,8 +39,6 @@ Here are some basic terminal commands:
 | `rm`    | remove a file                       | `rm trash.txt`    |
 
 #### Practice!
-- https://www.tutorialspoint.com/unix_terminal_online.php
-- http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html
 - https://github.com/adrisj7/omnipresent-guacamole
   - This is an interactive scavenger hunt, you can download it from GitHub and open the downloaded folder in a terminal to begin.
 
