@@ -49,7 +49,7 @@ Did you get what you expected?
 | ==           | comparison | equal to                 | `x == y`              |
 | !=           | comparison | not equal to             | `x != y`              |
 | &&           | logical    | logical AND              | `true && true`        |
-| &#124;&#124; | logical    | logical OR               | `true` &#124; `false` |
+| &#124;&#124; | logical    | logical OR               | `true` &#124;&#124; `false` |
 | !            | logical    | logical NOT              | `!false`              |
 
 __Note that the equal to operator IS NOT THE SAME as the assignment operator.__ One is used for comparisons, while the other is used for assigning values to variables.
