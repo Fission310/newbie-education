@@ -32,25 +32,25 @@ Did you get what you expected?
 
 ## Table of Operators
 
-| Operator | Type       | Function                 | Example        |
-|----------|------------|--------------------------|----------------|
-| `=`      | assignment | assignment               | `int x = 9`    |
-| `+`      | arithmetic | add                      | `3 + 4`        |
-| `-`      | arithmetic | subtract                 | `9 - 6`        |
-| `*`      | arithmetic | multiply                 | `3 * 5`        |
-| `/`      | arithmetic | divide                   | `4 / 2`        |
-| `%`      | arithmetic | modulus                  | `5 % 3`        |
-| `++`     | arithmetic | increment (by 1)         | `x++`          |
-| `--`     | arithmetic | decrement (by 1)         | `x--`          |
-| `<`      | comparison | less than                | `3 < 4`        |
-| `>`      | comparison | greater than             | `8 > 9`        |
-| `<=`     | comparison | less than or equal to    | `x <= 4`       |
-| `>=`     | comparison | greater than or equal to | `y >= 9`       |
-| `==`     | comparison | equal to                 | `x == y`       |
-| `!=`     | comparison | not equal to             | `x != y`       |
-| `&&`     | logical    | logical AND              | `true && true` |
-| `||`     | logical    | logical OR               | `true  false`  |
-| `!`      | logical    | logical NOT              | `!false`       |
+| Operator     | Type       | Function                 | Example               |
+|--------------|------------|--------------------------|-----------------------|
+| =            | assignment | assignment               | `int x = 9`           |
+| +            | arithmetic | add                      | `3 + 4`               |
+| -            | arithmetic | subtract                 | `9 - 6`               |
+| *            | arithmetic | multiply                 | `3 * 5`               |
+| /            | arithmetic | divide                   | `4 / 2`               |
+| %            | arithmetic | modulus                  | `5 % 3`               |
+| ++           | arithmetic | increment (by 1)         | `x++`                 |
+| --           | arithmetic | decrement (by 1)         | `x--`                 |
+| <            | comparison | less than                | `3 < 4`               |
+| >            | comparison | greater than             | `8 > 9`               |
+| <=           | comparison | less than or equal to    | `x <= 4`              |
+| >=           | comparison | greater than or equal to | `y >= 9`              |
+| ==           | comparison | equal to                 | `x == y`              |
+| !=           | comparison | not equal to             | `x != y`              |
+| &&           | logical    | logical AND              | `true && true`        |
+| &#124;&#124; | logical    | logical OR               | `true` &#124; `false` |
+| !            | logical    | logical NOT              | `!false`              |
 
 __Note that the equal to operator IS NOT THE SAME as the assignment operator.__ One is used for comparisons, while the other is used for assigning values to variables.
 
