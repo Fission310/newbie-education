@@ -29,16 +29,17 @@ In Java, it's necessary, when creating a variable, to give it a __type__. As we 
 
 Here are the other types:
 
-| Data Type   | Data Stored     | Range           | Size    |
-|-------------|-----------------|-----------------|---------|
-| byte        | integer         | -128 to 127     | 8 bits  |
-| short       | integer         | -32768 to 32767 | 16 bits |
-| __int__     | integer         | -2^31 to 2^31-1 | 32 bits |
-| long        | integer         | -2^63 to 2^63-1 | 64 bits |
-| float       | floating point  | n/a             | 32 bits |
-| __double__  | floating point  | n/a             | 64 bits |
-| __boolean__ | true/false      | n/a             | n/a     |
-| char        | character ('a') | n/a             | 16 bits |
+| Data Type   | Data Stored     | Range           | Size    | Example   |
+|-------------|-----------------|-----------------|---------|-----------|
+| byte        | integer         | -128 to 127     | 8 bits  | `0`       |
+| short       | integer         | -32768 to 32767 | 16 bits | `10000`   |
+| __int__     | integer         | -2^31 to 2^31-1 | 32 bits | `1337`    |
+| long        | integer         | -2^63 to 2^63-1 | 64 bits | `123456`  |
+| float       | floating point  | n/a             | 32 bits | `13.2`    |
+| __double__  | floating point  | n/a             | 64 bits | `25.6594` |
+| __boolean__ | true/false      | n/a             | n/a     | `true`    |
+| char        | character ('a') | n/a             | 16 bits | `'c'`     |
+| String      | string of chars | n/a             | n/a     | `"apple"` |
 
 [What's a floating point number?](https://techterms.com/definition/floatingpoint)
 
