@@ -61,3 +61,4 @@ __Note that the equal to operator IS NOT THE SAME as the assignment operator.__ 
 3. Fill in the missing data type. `___ x = (3 == 5);`
 4. Make an int and give it a value. Decrement it 3 times. Make a double with the same initial value and decrement it 3 times. Do you see a difference?
 5. Make two Strings that, when added together, prints out as `OpErations`.
+6. What happens when you divide two ints and store the result in an int?
