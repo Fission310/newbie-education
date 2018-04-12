@@ -19,6 +19,6 @@ If you are on Windows, you will need to configure your computer to be able to us
 In Git Bash,
 
 ```
-export PATH=$PATH:"/C/Program Files/Java/jdk1.7.0_21/bin/"
+setx /M PATH "%PATH%;C:\Program Files\Java\jdk-10\bin"
 ```
-replacing `1.7.0_21` with the version of the JDK that you installed.
+replacing `jdk-10` with the version of the JDK that you installed.
