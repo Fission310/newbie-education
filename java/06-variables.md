@@ -100,3 +100,14 @@ This creates a String called `whoAmI`, with a value of `Ryan`.
 ## Conventions
 
 Like file names, variable names should be camelCased. However, __the first letter of the variable should not be capitalized__, unlike file names. For example, `variableName` would be an acceptable variable name, while `VariableName` and `variablename` are not acceptable.
+
+## Using a Variable
+
+After you have declared a variable, you can get the value of the variable by using its name.
+
+```java
+int a = 9;
+System.out.println(a);
+```
+
+For example, after the variable `a` is declared and given a value of 9, you can use its name in the next line. You can think of the second line as replacing the name `a` with its value, `9` (the name is only a placeholder for the value). Unsurprisingly, this code ends up printing the number 9.
