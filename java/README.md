@@ -4,7 +4,7 @@
 - This course will acquaint you with the basics of programming, Java, and object oriented programming.
 - Assumes no prior programming experience.
 - Linux and MacOS operating systems are highly suggested for this course.
-- Suggested learning time: 2-3 weeks
+- Suggested learning time: 4-5 weeks
 - Prerequisites: none
 - Followups: [robot](../robot)
 - Created February 2018
@@ -21,9 +21,12 @@
 - [Conditionals](08-conditionals.md)
 - [Loops](09-loops.md)
 - [Methods](10-methods.md)
-- [Scanner](11-scanner.md)*
+- [Scanner](11-scanner.md)
 - [Classes](12-classes.md)
-- [Arrays](13-arrays.md)
-- [Problem Solving Techniques](14-problem-solving.md)*
-
-Lessons marked with a * are optional and are not necessary for future lessons, but are fun and useful to learn.
+- [Inheritance](13-inheritance.md)
+- [Interfaces](14-interfaces.md)
+- [Abstract Classes](15-abstract-classes.md)
+- [Arrays](16-arrays.md)
+- [ArrayList](17-arraylist.md)
+- [Problem Solving Techniques](18-problem-solving.md)
+- [Project](19-project.md)
