@@ -1,8 +1,8 @@
 # Conditionals
 
-In the last lesson, we learned about the different operators in java. We'll be focusing on one specific type of operator in this lesson, logical operators.
+In the last lesson, we learned about the different operators in java. We'll be focusing on one specific type of operator in this lesson, comparison operators.
 
-Logical operators deal with _comparing_ values and _result_ in a true or false value.
+Comparison operators deal with _comparing_ values and _result_ in a true or false value.
 
 ## Detour
 
