@@ -19,6 +19,6 @@ If you are on Windows, you will need to configure your computer to be able to us
 In Git Bash,
 
 ```
-setx /M PATH "%PATH%;C:\Program Files\Java\jdk-10\bin"
+set path=%path%;C:\Program Files\Java\jdk1.8.0_51\bin
 ```
 replacing `jdk-10` with the version of the JDK that you installed.
