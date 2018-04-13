@@ -21,4 +21,4 @@ In Git Bash,
 ```
 set path=%path%;C:\Program Files\Java\jdk1.8.0_51\bin
 ```
-replacing `jdk-10` with the version of the JDK that you installed.
+replacing `jdk1.8.0_51` with the version of the JDK that you installed.
