@@ -22,7 +22,7 @@ NOT negates an input; `true` becomes `false` and vice versa
 
 Notice how the comparison operators (`==`, `<`, `>`, etc.) also result in booleans. So both logical and comparison operators result in booleans.
 
-## Practice (credit FRC SE)
+## Practice
 
 What is each variable equal to, or what does the code print out?
 
