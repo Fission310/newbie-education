@@ -104,3 +104,7 @@ Write a program that:
 2. depending on the value of the variable, prints out a message that accurately reflects the grade
 
 For example, if the grade is below a 65, you might print out "You fail!". If it was 100, you might print out "Success!"
+
+### More Practice
+
+[CodingBat](http://codingbat.com/java/Logic-1)
