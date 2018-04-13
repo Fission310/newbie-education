@@ -1,8 +1,8 @@
 # Conditionals
 
-In the last lesson, we learned about the different operators in java. We'll be focusing on one specific type of operator in this lesson, logical operators.
+In the last lesson, we learned about the different operators in java. We'll be focusing on one specific type of operator in this lesson, comparison operators.
 
-Logical operators deal with _comparing_ values and _result_ in a true or false value.
+Comparison operators deal with _comparing_ values and _result_ in a true or false value.
 
 ## Detour
 
@@ -22,7 +22,7 @@ NOT negates an input; `true` becomes `false` and vice versa
 
 Notice how the comparison operators (`==`, `<`, `>`, etc.) also result in booleans. So both logical and comparison operators result in booleans.
 
-## Practice (credit FRC SE)
+## Practice
 
 What is each variable equal to, or what does the code print out?
 
@@ -104,3 +104,7 @@ Write a program that:
 2. depending on the value of the variable, prints out a message that accurately reflects the grade
 
 For example, if the grade is below a 65, you might print out "You fail!". If it was 100, you might print out "Success!"
+
+### More Practice
+
+[CodingBat](http://codingbat.com/java/Logic-1)
