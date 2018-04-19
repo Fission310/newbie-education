@@ -101,6 +101,40 @@ Remember Scanner? Unknown to you, we were creating Scanner objects and using the
 Scanner sc = new Scanner(System.in);
 ```
 
+## Writing a Class
+
+Remember the "hello world" programs we wrote in the beginning of this course? You were actually creating a class that did nothing but print "Hello world!". The same rules for those programs apply to our classes: your filename must match the class name, your main method runs the code, and everything else is used by the main method to run the code.
+
+```java
+public class Car {
+
+    public int speed;  // visibility modifiers can be attached to attributes!
+    private int size;
+
+    public Car(int a, int b) { // constructors should always be public--why?
+        speed = a;
+        size = b;
+    }
+
+    // method of the Car class
+    public void drive() {
+        speed++;
+    }
+
+    // this is the code that runs
+    public static void main( String[] args ) {
+        Car toyota = new Car(3, 5);
+        toyota.drive();
+        System.out.println(toyota.speed);
+    }
+
+}
+```
+
+What is the output of this program?
+
+Note that not all classes have to have a main method. Only classes that you intend to run should have a main method. This may not make much sense now, but we'll return to this idea in our next project.
+
 ## Why Classes
 
 Let's say you're writing a application that has a similar GUI with different content on every page. Wouldn't it be a waste of time and resources to write the code to draw the GUI for every single page? Instead, if you had a Page class with attributes for where buttons/text should go, and methods that keep track of user clicks, you could save yourself a lot of time.
@@ -108,3 +142,16 @@ Let's say you're writing a application that has a similar GUI with different con
 Especially for large projects, creating classes can save you a lot of time. We will examine this in our next project.
 
 ## Practice
+
+Write a class `Computer` that contains the following attributes: `size`, `weight`, `model`, and `isFast` with the appropriate data types. It should also contain the following methods: `upgrade(x)`, which should decrease the size and weight by `x`; `downgrade(x)`, which should increase the size and weight by `x`; and `toggleQuantumState()`, which should change `isFast` to the opposite of `isFast`. All of the attributes should be set when an instance is created (cough sounds like a job for a constructor cough).
+
+Then, in a main method, create an instance of your computer called `machine`. Give it a `size` of `2`, `weight` of `3.5`, `model` of `"dell"`, and `isFast` to `false`.
+
+Call the machine's `upgrade` method with an input of 5, and call `toggleQuantumState()`. Print out all of the `machine`'s attributes. Are they as you expected?
+
+## More on Constructors
+
+### Default
+
+
+### Overloaded
