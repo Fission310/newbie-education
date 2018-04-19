@@ -147,7 +147,7 @@ Write a class `Computer` that contains the following attributes: `size`, `weight
 
 Then, in a main method, create an instance of your computer called `machine`. Give it a `size` of `2`, `weight` of `3.5`, `model` of `"dell"`, and `isFast` to `false`.
 
-Call the machine's `upgrade` method with an input of 5, and call `toggleQuantumState()`. Print out all of the `machine`'s attributes. Are they as you expected?
+Call the machine's `upgrade` method with an input of 5, and call `toggleQuantumState()`. Print out all of the `machine`'s attributes. Are they as you expected? Sample code is the assets directory of this course.
 
 ## More on Constructors
 
@@ -155,3 +155,9 @@ Call the machine's `upgrade` method with an input of 5, and call `toggleQuantumS
 
 
 ### Overloaded
+
+## Multi-file Programs
+
+## String
+
+## Practice
