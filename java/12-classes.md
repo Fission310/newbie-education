@@ -151,13 +151,62 @@ Call the machine's `upgrade` method with an input of 5, and call `toggleQuantumS
 
 ## More on Constructors
 
+There's two different types of constructors...
+
 ### Default
 
+The default constructor takes no arguments. If your class does not include a contructor, _a blank default constructor will be included automatically_. However, you can also specify a default constructor:
+
+```java
+public Car() { //no arguments
+    size = 1;
+    speed = 1;
+    //...
+}
+```
+
+and this could be called like such
+
+```java
+Car toyota = new Car(); //no arguments!
+```
+
+What are the attributes of this Car, created using the default constructor?
 
 ### Overloaded
 
-## Multi-file Programs
+The other type of constructor is called the overloaded constructor. It takes arguments, and we've already seen an example in the above Car class example. Overloaded constructors are not included by default--it's up to you to specify the number and types of arguments, and to make sure that the right number of arguments are passed when you're creating an instance.
+
+```java
+public Car(int a, int b, int c, int d) {
+    size = a;
+    speed = b;
+}
+```
+
+can be called like
+
+```java
+Car toyota = new Car(3, 5, 3, 2);
+```
 
 ## String
+
+Let's take a closer look at the `String` data type. Why is it capitalized while the other __primitive__ data types are lowercase? Turns out, `String` is not a primitive type. It's a class, and _all classes are capitalized_.
+
+But if String is a class, then why don't we create Strings using the `new` keyword, like we do with other classes?
+
+Let's try it out.
+
+```java
+String test = new String("abcde");
+System.out.println(test);
+```
+
+
+
+## Multi-file Programs
+
+
 
 ## Practice
