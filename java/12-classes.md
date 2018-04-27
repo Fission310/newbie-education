@@ -238,5 +238,3 @@ Now compile and run `Main.java`. What do you see?
 We briefly touched on [this](10-methods.md#visibility-modifiers) in the methods lesson. Take a moment to go back and review. Since we're dealing with multiple files, it's important to keep in mind which visibility modifiers you want to use for classes, methods, and attributes.
 
 Look at the `Main.java` example above. What would have happened if the `speed` attribute of `Car` had been private instead of public? If it had no modifier? What about `drive()`? Make a guess, then try it out.
-
-## Practice
