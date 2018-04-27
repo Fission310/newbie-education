@@ -6,7 +6,8 @@ Let's start out with some guiding questions.
 - What properties do all cars have?
 - What can all cars do?
 
-Car
+### Car
+
 | Properties     | Actions |
 |----------------|---------|
 | color          | drive   |
