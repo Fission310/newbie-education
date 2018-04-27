@@ -85,7 +85,7 @@ Create a method that takes a parameter `int k`, and if more than half of the 10 
 
 ## Visibility Modifiers
 
-Visibility modifiers decalre where methods can be accessed from. They go in front of the return type.
+Visibility modifiers declare where methods can be accessed from. They go in front of the return type.
 
 For example,
 
