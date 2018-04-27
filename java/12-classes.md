@@ -203,9 +203,19 @@ String test = new String("abcde");
 System.out.println(test);
 ```
 
+What do you see? Is it what you expect?
 
+Truth of the matter is, String is a class like all the classe we've been writing. It is, however, special in that you can create instances of them like primitives (`String s = "hi"` is perfectly valid). It has become so ingrained in everyday use that this is simply a special feature built into Java. It's an exception to the rule.
 
-## Multi-file Programs
+---
+
+If you've gone through everything above in a single sitting, please take a break at this point.
+
+## Multi-File Programs
+
+So far we've only covered single-file programs: programs that contain all the code in one file. However, Java makes it easy for us to organize our code into separate files. After all, you wouldn't want code that makes instances of Cars to be in the same file as code that makes Airplanes, right?
+
+Looking off the `Car` class we wrote above, all the attributes and methods define what a car is and what it does--except for the main method, which creates an instance of Car. Let's move this main method to another file so that we'll have two files: `Car.java`, which defines a Car, and `Main.java`, which actually creates a Car and runs the program. __Remember that not all Java classes have to have main methods!__
 
 
 
