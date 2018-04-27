@@ -217,6 +217,25 @@ So far we've only covered single-file programs: programs that contain all the co
 
 Looking off the `Car` class we wrote above, all the attributes and methods define what a car is and what it does--except for the main method, which creates an instance of Car. Let's move this main method to another file so that we'll have two files: `Car.java`, which defines a Car, and `Main.java`, which actually creates a Car and runs the program. __Remember that not all Java classes have to have main methods!__
 
+`Main.java`:
+```java
+public class Main {
 
+    public static void main( String[] args } {
+        Car toyota = new Car(3, 5);
+        toyota.drive();
+        System.out.println(toyota.speed);
+    }
+
+}
+```
+
+Now compile and run `Main.java`. What do you see?
+
+### Visibility Modifiers
+
+We briefly touched on [this](10-methods.md#visibility-modifiers) in the methods lesson. Take a moment to go back and review. Since we're dealing with multiple files, it's important to keep in mind which visibility modifiers you want to use for classes, methods, and attributes.
+
+Look at the `Main.java` example above. What would have happened if the `speed` attribute of `Car` had been private instead of public? If it had no modifier? What about `drive()`? Make a guess, then try it out.
 
 ## Practice
