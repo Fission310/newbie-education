@@ -74,4 +74,9 @@ Ex: `"hi" + " there"` => `"hi there"`
 
 ## More Practice
 
-For more practice problems, visit [CodingBat](http://codingbat.com/java) and work on their problems. Practice makes perfect!
+For more practice problems, visit [CodingBat](http://codingbat.com/java) and work on their problems (try String-2). Practice makes perfect!
+
+NOTE:
+- `str.substring(<start>, <end>)` returns a portion of the string specified by the start index and the end index. For example, `"apple".substring(0,3)` returns app.
+
+
