@@ -76,7 +76,7 @@ Ex: `"hi" + " there"` => `"hi there"`
 
 For more practice problems, visit [CodingBat](http://codingbat.com/java) and work on their problems (try String-2). Practice makes perfect!
 
-NOTE:
+NOTE ON STRING METHODS:
 - `str.substring(<start>, <end>)` returns a portion of the string specified by the start index and the end index. For example, `"apple".substring(0,3)` returns app.
-
+- To compare strings, you need the `.equals` method of String. For example, `str.equals("tobecompared")` returns true if `str` is equal to `"tobecompared"`.
 
