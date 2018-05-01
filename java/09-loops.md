@@ -44,7 +44,7 @@ Finally, the third part is how your variable changes after each iteration, or ea
 
 Use a for loop to display the numbers from 0 to 25, inclusive.
 
-If one of the numbers being displayed is a multiple of 5, then multiply that number by 2,and print the result.
+If one of the numbers being displayed is a multiple of 5, then multiply that number by 2, and print the result.
 
 ## While
 
