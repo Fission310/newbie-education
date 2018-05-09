@@ -44,7 +44,7 @@ Finally, the third part is how your variable changes after each iteration, or ea
 
 Use a for loop to display the numbers from 0 to 25, inclusive.
 
-If one of the numbers being displayed is a multiple of 5, then multiply that number by 2,and print the result.
+If one of the numbers being displayed is a multiple of 5, then multiply that number by 2, and print the result.
 
 ## While
 
@@ -74,4 +74,9 @@ Ex: `"hi" + " there"` => `"hi there"`
 
 ## More Practice
 
-For more practice problems, visit [CodingBat](http://codingbat.com/java) and work on their problems. Practice makes perfect!
+For more practice problems, visit [CodingBat](http://codingbat.com/java) and work on their problems (try String-2). Practice makes perfect!
+
+NOTE ON STRING METHODS:
+- `str.substring(<start>, <end>)` returns a portion of the string specified by the start index and the end index. For example, `"apple".substring(0,3)` returns app.
+- To compare strings, you need the `.equals` method of String. For example, `str.equals("tobecompared")` returns true if `str` is equal to `"tobecompared"`.
+
