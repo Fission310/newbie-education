@@ -89,6 +89,8 @@ Create a method that has the following parameters: 2 integers and a boolean. If 
 
 Create a method that takes a parameter `int k`, and if more than half of the 10 consecutive numbers after k multiplied by 3 is greater than 20, then return the value of k, otherwise return k - 3.
 
+Create a method that takes no parameters, and returns the sum of 2 and 4.
+
 ## Visibility Modifiers
 
 Visibility modifiers declare where methods can be accessed from. They go in front of the return type.
