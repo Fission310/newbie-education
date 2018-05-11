@@ -94,6 +94,8 @@ In general, dot notation looks like:
 <object name>.<variable or method name>;
 ```
 
+_Notice how the methods in the `Car` class are not `static`, like the methods we've been working with._ This is because if you create an instance of a class and call a method on it, the method should not be static. This is unlike the methods we've been working with before, because we weren't creating instances of classes then.
+
 ## Remember?
 
 Remember Scanner? Unknown to you, we were creating Scanner objects and using them in our code.
@@ -238,3 +240,13 @@ Now compile and run `Main.java`. What do you see?
 We briefly touched on [this](10-methods.md#visibility-modifiers) in the methods lesson. Take a moment to go back and review. Since we're dealing with multiple files, it's important to keep in mind which visibility modifiers you want to use for classes, methods, and attributes.
 
 Look at the `Main.java` example above. What would have happened if the `speed` attribute of `Car` had been private instead of public? If it had no modifier? What about `drive()`? Make a guess, then try it out.
+
+## Static Classes
+
+So what exactly is the purpose of static? __Static methods and variables can be accessed before an instance of the class is created__. For example, let's say you had a Math class that had methods to do square root, power, etc. You wouldn't want to create an instance of Math (`Math m = new Math();`) before performing an operation, right?
+
+So instead, if `sqrt()` was a static method, you could simply do `Math.sqrt()`, which would give you your desired result. This is what you were doing in effect with the static methods in previous lessons, except you didn't need to precede the method call with your class name because you were accessing the method from the same class.
+
+### Practice
+
+Write a class `Math` that has a static method for finding the discriminant of a quadratic equation. Write another class `Main` that tests the functionality of this method.

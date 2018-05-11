@@ -15,7 +15,7 @@ public static void main( String[] args ) {
     foo( 2, 1, 2 );
 }
 
-void foo( int a, int b, int c ) {
+static void foo( int a, int b, int c ) {
     for( int i = a; i < b; i++) {
        c += 1;
     }
@@ -35,15 +35,19 @@ In other words, what are the results of these __calls__ to the function `foo`?
 
 Let's examine the different parts of a method.
 
-### Return Type
-
-The __return type__ of a method is the data type of the output of a method.
-
 ```java
-int sum( int a, int b ) {
+static int sum( int a, int b ) {
     return a + b;
 }
 ```
+
+### Static
+
+We'll discuss this in a later lesson. For now, precede all of your methods with static. You need to do this in order to call them in the main method.
+
+### Return Type
+
+The __return type__ of a method is the data type of the output of a method.
 
 Notice, in the above function, the `int` keyword at the beginning of the method. This is the return type of the method. To actually return an output, the `return` keyword is used inside the method. __Note that the method will stop running once it reaches a `return` statement; any code in the method underneath the return will not run.__
 
@@ -78,6 +82,8 @@ If you have a method with the __function header__ `int sum( int a, int b )`, you
 What happens if you call a method with inputs that are not the correct specified type? For example, `sum( true, false );`?
 
 ## Practice
+
+Remember to precede your methods with `static`!
 
 Create a method that has the following parameters: 2 integers and a boolean. If the boolean is true, return double the sum of the 2 integers. If boolean is false, return the sum of the 2 integers. To check your answer, call the method in your main method and print it (for example, `System.out.println( foo(5) );`).
 
