@@ -1,3 +1,12 @@
+1. ftc intro - flint
+    - show the org/repo
+    - download stuff: git, android studio
+    - clone repo
+    - go through general code structure overview, give names to things
+    - basic mechanism
+    - git tutorial (pretend to push some mechanism code)
+    - basic teleop with controls (no commands yet)
+    - android studio stuff, pushing to bot etc.
 1. android studio - daniel
     - how to set up a project
     - how to use git with android studio
@@ -7,25 +16,6 @@
         - adb is weird
     - compilation errors
     - git versioning issues
-1. general code overview (merge with android studio stuff?) - flint
-    - what is an opmode
-    - what all the dirs mean
-    - mini git tutorial
-1. ftcdash
-    - what is ftcdash
-    - some use cases
-    - ip and adb stuff
-1. auton
-    - meep meep
-    - are we doing rr still?
-    - how to set up the bot and get constants and stuff
-    - how to tune
-    - how to write pathing
-    - how to write an auton - control flow
-    - some goofy videos of auto going horribly wrong!
-    - how this works with ftcdash
-    - showing editable constants on ftcdash
-    - battery shitty stuff
 1. mechanisms
     - what is scoring.java
     - how to write a new mechanism
@@ -43,7 +33,22 @@
     - examples of how to use
     - command sequences
     - (autocommandmachine has a bug?)
-1. utilities
+1. auton
+    - meep meep
+    - are we doing rr still?
+    - how to set up the bot and get constants and stuff
+    - how to tune
+    - how to write pathing
+    - how to write an auton - control flow
+    - some goofy videos of auto going horribly wrong!
+    - how this works with ftcdash
+    - showing editable constants on ftcdash
+    - battery shitty stuff
+1. ftcdash
+    - what is ftcdash
+    - some use cases
+    - ip and adb stuff
+1. misc
     - controls.java 
     - dev op modes
 
