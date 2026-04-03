@@ -1,6 +1,6 @@
 1. ftc intro - flint
-    - show the org/repo
     - download stuff: git, android studio
+    - show the org/repo
     - clone repo
     - go through general code structure overview, give names to things
     - basic mechanism
