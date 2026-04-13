@@ -52,5 +52,7 @@
     - [ ] dev op modes
 
 and general lesson organization - order of stuff
+some instructions about using ai (when to not use and how to use copilot)
+add homeworks
 
 read old stuff and check if anything can be reused

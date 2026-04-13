@@ -6,7 +6,7 @@ Before we can begin learning how to program robots, we first need the tools to p
 
 Download the latest version of [Android Studio](https://developer.android.com/studio/). Install with the default settings through the installation wizard.
 
-After installation, you should reach a home menu with buttons like "Start a new project" and "Import existing project". Do not select anything and go on to the next part of this lesson.
+After installation, you should reach a home menu saying "Welcome to Android Studio". Don't select anything yet, and move on to the next part. You can keep Android Studio open though, we will be using it soon.
 
 ## Git Installation and GitHub Account
 
@@ -28,6 +28,7 @@ The other bit of the code that we want to get from GitHub is our current robot c
 1. Click the green "Code" button, click on SSH, and copy the link. It should be something like `git@github.com:Fission310/<something>.git`
 1. Go back to your terminal and navigate to where the robot code is stored. `cd FtcRobotController/TeamCode/src/main/java/org/firstinspires/ftc/` If you type `ls` you should see a folder called `teamcode`. This is where all the code for our robot will go.
 1. Let's first delete the existing code in that folder. You can do this with `rm -rf teamcode/`.
-1. The last step is to clone our robot code into that folder. Do this with `git clone <link you copied from GitHub> teamcode`. This will clone the code into the `teamcode` folder.
+1. Now it's time to clone our robot code into that folder. Do this with `git clone <link you copied from GitHub> teamcode`. This will clone the code into the `teamcode` folder.
+1. The last step is to import the project into Android Studio. Go back to Android Studio and click on "Open". Navigate to the folder where you cloned the FTC Robot Controller app (probably called `FtcRobotController`), and select it. Click "Trust Project", and Android Studio should open!
 
 Now everything is set up!
