@@ -2,7 +2,7 @@
     - [x] download stuff: git, android studio
     - [x] show the org/repo
     - [x] clone repo
-    - [ ] go through general code structure overview, give names to things
+    - [x] go through general code structure overview, give names to things
     - [ ] basic mechanism
     - [ ] git tutorial (pretend to push some mechanism code)
     - [ ] basic teleop with controls (no commands yet)
