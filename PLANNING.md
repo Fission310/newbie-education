@@ -46,7 +46,9 @@
 1. utilities
     - controls.java 
     - dev op modes
+    - telemetry
 
 and general lesson organization - order of stuff
+install fissionlib and roadrunner stuff
 
 read old stuff and check if anything can be reused
