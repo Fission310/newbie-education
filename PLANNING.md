@@ -16,13 +16,13 @@
     - [ ] compilation errors
     - [ ] git versioning issues
 1. mechanisms
-    - [ ] what is scoring.java
-    - [ ] how to write a new mechanism
+    - [x] what is scoring.java
+    - [x] how to write a new mechanism
     - [ ] how to decide what should be a mechanism
     - [ ] button presses
     - [ ] hardware map
 1. teleop / scoring.java
-    - [ ] state and giant match statement
+    - [x] state and giant match statement
     - [ ] how to use commands to make stuff easier
     - [ ] more button stuff - how to detect clicks vs presses
     - [ ] same button doing different things in diff states
@@ -50,8 +50,10 @@
 1. misc
     - [ ] controls.java 
     - [ ] dev op modes
+    - [ ] telemetry
 
 and general lesson organization - order of stuff
+install fissionlib and roadrunner stuff
 some instructions about using ai (when to not use and how to use copilot)
 add homeworks
 
